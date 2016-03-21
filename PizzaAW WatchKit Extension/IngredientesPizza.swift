@@ -19,6 +19,7 @@ class IngredientesPizza: WKInterfaceController {
     
     @IBOutlet var btnSiguiente: WKInterfaceButton!
     
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -42,7 +43,16 @@ class IngredientesPizza: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
+    func habilitarBoton() {
+        if (ingredientes.count > 0 && ingredientes.count < 6) {
+            btnSiguiente.setHidden(false)
+        btnSiguiente.setBackgroundColor(UIColor.greenColor())        } else {
+            btnSiguiente.setHidden(true)
+            btnSiguiente.setBackgroundColor(UIColor.redColor())
+        }
+    }
+    
     @IBAction func jamon(value: Bool) {
         if(value){
             ingredientes.append("Jamon")
@@ -131,16 +141,13 @@ class IngredientesPizza: WKInterfaceController {
         habilitarBoton()
     }
 
-    func habilitarBoton() {
-        if (ingredientes.count == 0) {
-            btnSiguiente.setHidden(true)
-        } else {
-            btnSiguiente.setHidden(false)
-        }
-    }
+
     
     @IBAction func ingredientesSeguir() {
+        if (ingredientes.count > 0 && ingredientes.count < 6){
+        btnSiguiente.setBackgroundColor(UIColor.greenColor())
         pushControllerWithName("SeguirConfirmacion", context: resultado)
+        }
     }
 
 

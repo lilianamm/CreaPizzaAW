@@ -125,7 +125,7 @@
                                 <label alignment="left" text="Ingredientes" id="OL3-c1-ax0"/>
                                 <button width="38" alignment="left" title="&gt;" id="l1W-Gp-rlR">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="ingredientesSeguir" destination="h9M-dC-qra" id="4UB-c3-hMI"/>
                                     </connections>
