@@ -132,6 +132,7 @@
                                 </button>
                             </items>
                         </group>
+                        <label width="133" alignment="left" text="Escoge de 1 a 5 ingredientes" textAlignment="center" numberOfLines="2" id="Zze-cp-xZp"/>
                         <switch width="1" alignment="left" title="Jamon" id="8bc-IN-GCL">
                             <connections>
                                 <action selector="jamon:" destination="h9M-dC-qra" id="YWr-pf-Jo1"/>
