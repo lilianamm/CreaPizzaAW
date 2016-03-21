@@ -19,6 +19,12 @@
 		2847CEF61C9F7D8F00F7B9BD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CEF51C9F7D8F00F7B9BD /* InterfaceController.swift */; };
 		2847CEF81C9F7D9000F7B9BD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CEF71C9F7D9000F7B9BD /* ExtensionDelegate.swift */; };
 		2847CEFA1C9F7D9000F7B9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2847CEF91C9F7D9000F7B9BD /* Assets.xcassets */; };
+		2847CF0E1C9F874900F7B9BD /* TamañoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF0D1C9F874900F7B9BD /* TamañoPizza.swift */; };
+		2847CF101C9F97EB00F7B9BD /* MasaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF0F1C9F97EB00F7B9BD /* MasaPizza.swift */; };
+		2847CF121C9F9B2500F7B9BD /* QuesoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF111C9F9B2500F7B9BD /* QuesoPizza.swift */; };
+		2847CF141C9FA22C00F7B9BD /* IngredientesPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF131C9FA22C00F7B9BD /* IngredientesPizza.swift */; };
+		2847CF161C9FAAF400F7B9BD /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF151C9FAAF400F7B9BD /* ConfirmacionPizza.swift */; };
+		2847CF181C9FAE5800F7B9BD /* PizzaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847CF171C9FAE5800F7B9BD /* PizzaLista.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		2847CEF71C9F7D9000F7B9BD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2847CEF91C9F7D9000F7B9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2847CEFB1C9F7D9000F7B9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2847CF0D1C9F874900F7B9BD /* TamañoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TamañoPizza.swift"; sourceTree = "<group>"; };
+		2847CF0F1C9F97EB00F7B9BD /* MasaPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaPizza.swift; sourceTree = "<group>"; };
+		2847CF111C9F9B2500F7B9BD /* QuesoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoPizza.swift; sourceTree = "<group>"; };
+		2847CF131C9FA22C00F7B9BD /* IngredientesPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesPizza.swift; sourceTree = "<group>"; };
+		2847CF151C9FAAF400F7B9BD /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
+		2847CF171C9FAE5800F7B9BD /* PizzaLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaLista.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,12 @@
 				2847CEF71C9F7D9000F7B9BD /* ExtensionDelegate.swift */,
 				2847CEF91C9F7D9000F7B9BD /* Assets.xcassets */,
 				2847CEFB1C9F7D9000F7B9BD /* Info.plist */,
+				2847CF0D1C9F874900F7B9BD /* TamañoPizza.swift */,
+				2847CF0F1C9F97EB00F7B9BD /* MasaPizza.swift */,
+				2847CF111C9F9B2500F7B9BD /* QuesoPizza.swift */,
+				2847CF131C9FA22C00F7B9BD /* IngredientesPizza.swift */,
+				2847CF151C9FAAF400F7B9BD /* ConfirmacionPizza.swift */,
+				2847CF171C9FAE5800F7B9BD /* PizzaLista.swift */,
 			);
 			path = "PizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -295,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2847CF161C9FAAF400F7B9BD /* ConfirmacionPizza.swift in Sources */,
+				2847CF121C9F9B2500F7B9BD /* QuesoPizza.swift in Sources */,
+				2847CF0E1C9F874900F7B9BD /* TamañoPizza.swift in Sources */,
 				2847CEF81C9F7D9000F7B9BD /* ExtensionDelegate.swift in Sources */,
+				2847CF101C9F97EB00F7B9BD /* MasaPizza.swift in Sources */,
 				2847CEF61C9F7D8F00F7B9BD /* InterfaceController.swift in Sources */,
+				2847CF181C9FAE5800F7B9BD /* PizzaLista.swift in Sources */,
+				2847CF141C9FA22C00F7B9BD /* IngredientesPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
