@@ -210,7 +210,7 @@
             <objects>
                 <controller id="lzD-IF-0kv" customClass="PizzaLista" customModule="PizzaAW_WatchKit_Extension">
                     <items>
-                        <button width="1" alignment="left" verticalAlignment="center" title="Tu pizza esta en el horno!! ⏱" id="Zyt-4a-vw6"/>
+                        <button width="1" alignment="left" verticalAlignment="center" title="Tu pizza esta en el horno!! 🍽⏱" id="Zyt-4a-vw6"/>
                     </items>
                 </controller>
             </objects>

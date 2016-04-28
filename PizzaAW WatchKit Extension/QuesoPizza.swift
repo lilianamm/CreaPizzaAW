@@ -12,7 +12,7 @@ import Foundation
 
 class QuesoPizza: WKInterfaceController {
 
-    let quesoList:[(String,String)] = [("Elegido Mozarella","Morazella"),("Elegido Cheddar","Cheddar"),("Elegido Parmesano","Parmesano"),("Elegido sin queso","Sin Queso")]
+    let quesoList:[(String,String)] = [("Elegido Mozarella","Mozarella"),("Elegido Cheddar","Cheddar"),("Elegido Parmesano","Parmesano"),("Elegido sin queso","Sin Queso")]
     
     var pickerItems:[WKPickerItem]?
     
